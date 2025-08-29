@@ -3,7 +3,10 @@
 .ONESHELL:
 
 run:
+	cls
+	cd 2
 	go run .
+	cd ..
 
 commit:
 	git add .
